@@ -63,8 +63,8 @@
 *.max
 
 # h5 files 
-*.h5
-*.hdf5
+#*.h5
+#*.hdf5
 
 # Single files
 Data_storage_and_processing.txt
