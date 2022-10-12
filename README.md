@@ -6,8 +6,14 @@ in dense populations.
 ## Figures 
 Figure in this manuscript were produced using the corresponding python scripts Figure_X/Figure_x_y.py
 
+### Figure 1
+Synthetic mutation assay to study evolutionary rescue dynamics in expanding microbial colonies.
+
+![Figure 1](/paper_figures/Figure_synmut.png)
+
+
 ## Data
-Data files are too large for the repository, and can be provided by the authors upon request.
+Random walk model data files are too large for the repository due to very large number of clones (same file also contains all of the controls presented in the SI), and can be provided by the authors upon request.
 
 ## Reference
 Preprint: 
