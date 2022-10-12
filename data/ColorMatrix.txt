@@ -1,0 +1,9 @@
+r,r,b,r,r,r,r,r,r,r,r,r,m,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,m,r,m,r,r,r,r,r,r,r,m,r,r,r,r,r,b,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,m,r,r,r,r,r,r,b,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,b
+b,r,k,r,r,k,k,r,b,r,k,r,r,r,r,r,k,r,k,k,r,r,b,r,b,r,k,r,k,b,k,k,k,k,r,r,r,r,b,r,r,r,m,r,m,k,r,r,k,k,k,r,k,k,r,k,m,k,r,k,b,k,r,b,r,k,k,r,m,k,k,k,r,r,k,r,b,k,k,k,k,b,k,m,r,r,r,r,b,r,r,r,r,m,r,k,k,r,k,m,k,r
+r,r,k,m,m,k,k,r,m,r,k,m,r,k,r,b,k,r,k,k,r,r,b,k,m,m,k,b,k,k,k,k,k,k,r,m,r,m,b,b,r,m,k,m,k,k,m,r,k,k,k,m,k,k,r,k,r,k,b,k,k,k,k,b,k,k,k,k,m,k,k,k,k,m,k,k,b,k,k,k,k,b,k,m,k,b,r,r,b,b,b,r,r,k,m,k,k,r,k,m,k,k
+k,r,k,r,b,k,k,b,r,m,k,r,m,k,r,b,k,k,k,k,r,k,b,k,m,b,k,b,k,k,k,k,k,k,k,r,r,b,b,k,m,k,k,m,k,k,m,m,k,k,k,r,k,k,k,k,r,k,k,k,k,k,k,b,k,k,k,k,m,k,k,k,k,r,k,k,b,k,k,k,k,b,k,m,k,b,r,m,b,b,b,r,b,k,m,k,k,m,k,m,k,k
+k,r,k,k,b,k,k,k,k,m,k,r,m,k,r,b,k,k,k,k,r,k,b,k,m,b,k,b,k,k,k,k,k,k,k,k,r,k,b,k,b,k,k,b,k,k,m,r,k,k,k,m,k,k,k,k,m,k,k,k,k,k,k,b,k,k,k,k,b,k,k,k,k,b,k,k,r,k,k,k,k,b,k,r,k,b,k,m,b,b,k,b,b,k,m,k,k,m,k,b,k,k
+k,m,k,k,r,k,k,k,k,b,k,b,b,k,m,b,k,k,k,k,b,k,b,k,b,m,k,k,k,k,k,k,k,k,k,k,r,k,b,k,b,k,k,b,k,k,r,m,k,k,k,b,k,k,k,k,k,k,k,k,k,k,k,b,k,k,k,k,b,k,k,k,k,r,k,k,k,k,k,k,k,b,k,m,k,b,k,b,b,b,k,k,k,k,b,k,k,b,k,b,k,k
+k,k,k,k,m,k,k,k,k,b,k,b,b,k,m,k,k,k,k,k,b,k,b,k,b,m,k,k,k,k,k,k,k,k,k,k,m,k,b,k,b,k,k,b,k,k,k,m,k,k,k,b,k,k,k,k,k,k,k,k,k,k,k,b,k,k,k,k,m,k,k,k,k,r,k,k,k,k,k,k,k,b,k,b,k,b,k,b,k,b,k,k,k,k,b,k,k,k,k,b,k,k
+k,k,k,k,b,k,k,k,k,k,k,b,k,k,m,k,k,k,k,k,k,k,b,k,b,b,k,k,k,k,k,k,k,k,k,k,k,k,b,k,k,k,k,b,k,k,k,k,k,k,k,b,k,k,k,k,k,k,k,k,k,k,k,b,k,k,k,k,b,k,k,k,k,k,k,k,k,k,k,k,k,b,k,b,k,b,k,b,k,b,k,k,k,k,b,k,k,k,k,k,k,k
+k,k,k,k,b,k,k,k,k,k,k,b,k,k,b,k,k,k,k,k,k,k,k,k,b,b,k,k,k,k,k,k,k,k,k,k,k,k,b,k,k,k,k,b,k,k,k,k,k,k,k,b,k,k,k,k,k,k,k,k,k,k,k,b,k,k,k,k,b,k,k,k,k,k,k,k,k,k,k,k,k,r,k,b,k,b,k,b,k,b,k,k,k,k,b,k,k,k,k,k,k,k

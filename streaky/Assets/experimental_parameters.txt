@@ -1,0 +1,23 @@
+CHX = [0, 50 ,100]
+delta_s = [0.000995, 0.0126, 0.023];
+error_delta_s = [0.00085, 0.0064, 0.0035];
+
+mu = [5.4e-6, 1.5e-4,2.7e-4,4.6e-4];
+BED = [0, 2,4,6];
+
+# Parameters for main figure ISB:
+
+    <fitness_cost>0.013</fitness_cost>
+    <mutation_rate>0.0001</mutation_rate>
+    <seff_type>inverse_logistic</seff_type>
+    <seff_critical_width>280</seff_critical_width>
+    <diffusion_coefficient>0.23</diffusion_coefficient>
+    <cell_size>5</cell_size>
+    <delta_r>1</delta_r>
+    <initial_radius>1827</initial_radius>
+    <initial_width_distribution>random</initial_width_distribution>
+    <mean_initial>20</mean_initial>
+    <std_initial>5</std_initial>
+    <sector_number>1000</sector_number>
+    <steps>7000</steps>
+    <sim_name>static_s=1.3e-2_mu=1.0e-4_d=0.23_wc=280_w0=r20pm5</sim_name>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <index>0</index>
+    <fitness_cost>0.013</fitness_cost>
+    <selection_type>dynamic</selection_type>
+    <mutation_rate>0.0001</mutation_rate>
+    <seff_type>inverse_logistic</seff_type>
+    <seff_critical_width>280</seff_critical_width>
+    <seff_deadzone>32</seff_deadzone>
+    <diffusion_coefficient>0.23</diffusion_coefficient>
+    <cell_size>5</cell_size>
+    <delta_r>1</delta_r>
+    <initial_radius>1827</initial_radius>
+    <initial_width>10</initial_width>
+    <initial_width_distribution>random</initial_width_distribution>
+    <mean_initial>20</mean_initial>
+    <std_initial>5</std_initial>
+    <sector_number>50</sector_number>
+    <steps>7000</steps>
+    <sim_name>trajectories_dynamic_s=1.3e-2,wc=280_random_ini</sim_name>
+  </row>
+</data>

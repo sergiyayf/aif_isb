@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <index>0</index>
+    <fitness_cost>0.001</fitness_cost>
+    <selection_type>dynamic</selection_type>
+    <mutation_rate>0.0001</mutation_rate>
+    <seff_type>sigmoid</seff_type>
+    <seff_critical_width>558</seff_critical_width>
+    <seff_deadzone>32</seff_deadzone>
+    <diffusion_coefficient>0.08</diffusion_coefficient>
+    <cell_size>5</cell_size>
+    <delta_r>1</delta_r>
+    <initial_radius>1827</initial_radius>
+    <initial_width>5</initial_width>
+    <sector_number>10</sector_number>
+    <steps>7000</steps>
+    <sim_name>experiment_group</sim_name>
+  </row>
+</data>

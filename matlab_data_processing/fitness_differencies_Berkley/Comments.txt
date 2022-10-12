@@ -1,0 +1,2 @@
+This Folder contains fitness differencies measured by creating concentric circles. Fitness data saved in the txt files with explanations from which images it is taken. Data produced with fit_thingy.m code. 
+Figures of the colonies with corresponding plotted circles are shown to see which of the sectors were taken for measuring the fitness difference. 
