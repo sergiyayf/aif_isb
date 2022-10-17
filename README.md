@@ -3,6 +3,24 @@
 This repository contains code to analyze experimental and simulation data of evolutionary rescue
 in dense populations. 
 
+## Dependencies 
+
+### Software 
+Python = 3.8
+R = 4.2.1 
+MatLab = R2020a
+PhysiCell = V1.8.0 [source code](https://github.com/MathCancer/PhysiCell)
+Ilastik = 1.3.3
+
+### Python packages
+numpy = 1.21.5
+matplotlib = 3.5.1
+pandas = 1.4.1 
+seaborn = 0.11.2
+scipy = 1.7.3 
+h5py = 2.10
+rpy2 = 3.5.4 
+
 ## Figures 
 Figure in this manuscript were produced using the corresponding python scripts Figure_X/Figure_x_y.py
 
@@ -33,17 +51,22 @@ equilibrium width.
 ### Figure 5
 Including inflation-selection balance in a random walk model of range expansion reproduces experimental
 observations.
+Simulations for this figure can be produced by running the script `streaky/streaky_examples/streaky_sim_example.py` and analyzed with `streky/streaky_examples/streaky_analysis_example.py`.
+
 ![Figure 5](/paper_figures/Figure_RW.png)
 
 ### Figure 6
 The interplay of inflation-selection balance and evolutionary rescue inherently emerges in an agentbased
 in silico tumor model.
+Simulations for this Figure can be produced using [PhysiCell](https://github.com/MathCancer/PhysiCell)
+V.1.8.0 with config and custom modules from `PhysiCell_config_and_custom_modules`. Code can be analyzed by first running `Figure_6/chist/load/matTohdf.py` to transform .mat PhysiCell files to hdf5 format and preserach for cells at the boundaries. Then similar to the figure analysis can be reproduced with the corresponding Figure_6_x.py scripts. 
+
 ![Figure 6](/paper_figures/Figure_ABS.png)
 
 
 
 ## Data
-Random walk model data files are too large for the repository due to very large number of clones (same file also contains all of the controls presented in the SI), and can be provided by the authors upon request.
+Random walk model data (streaky) files are too large for the repository due to very large number of clones (same file also contains all of the controls presented in the SI), and can be provided by the authors upon request.
 
 ## Reference
 Preprint: 
