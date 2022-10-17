@@ -7,18 +7,29 @@ in dense populations.
 
 ### Software 
 Python = 3.8
+
 R = 4.2.1 
+
 MatLab = R2020a
+
 PhysiCell = V1.8.0 [source code](https://github.com/MathCancer/PhysiCell)
+
 Ilastik = 1.3.3
 
 ### Python packages
+
 numpy = 1.21.5
+
 matplotlib = 3.5.1
+
 pandas = 1.4.1 
+
 seaborn = 0.11.2
+
 scipy = 1.7.3 
+
 h5py = 2.10
+
 rpy2 = 3.5.4 
 
 ## Figures 
