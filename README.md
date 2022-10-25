@@ -1,4 +1,4 @@
-# An emergent inflation-selection balance governs the evolutionary
+# Evolutionary rescue of resistant mutants is governed by a balance between radial expansion and selection in compact populations
 
 This repository contains code to analyze experimental and simulation data of evolutionary rescue
 in dense populations. 
