@@ -3,6 +3,16 @@
 This repository contains code to analyze experimental and simulation data of evolutionary rescue
 in dense populations. 
 
+## System requirements
+
+No non-standard hardware is required to run this code. 
+
+Analysis software was tested on Windows 10 Version 10.0.19043. 
+
+## Installation guide 
+
+To run the software to reproduce the Figures install Python (with required packages) and R and run respective script. See `Dependencies` for software and packages versions.
+
 ## Dependencies 
 
 ### Software 
@@ -75,9 +85,23 @@ V.1.8.0 with config and custom modules from `PhysiCell_config_and_custom_modules
 ![Figure 6](/paper_figures/Figure_ABS.png)
 
 
-
 ## Data
 Random walk model data (streaky) files are too large for the repository due to very large number of clones (same file also contains all of the controls presented in the SI), and can be provided by the authors upon request.
+
+## Instruction to use 
+
+### Experimental data 
+
+Segment microscopy images with Ilastik, using different labels for 3 different fluorescent signals, colony edge and the background. For label order see `matlab_data_processing/Single_colony_analysis.m` file and either adapt the labeling or script accordingly. Run `mattoh5.m` script to transform data to hdf5 format for futher analysis. Run the scripts in `Figure_2` directory.
+
+### Streaky simulations 
+
+To run sample simulation use `streaky/streaky_examples/streaky_sim_example.py`. To analyse the data either use `streaky_analysis_example` or scripts in the `Figure_5` directory. 
+
+### Agent-based simulations
+
+Agent-based simulations can be produced using [PhysiCell](https://github.com/MathCancer/PhysiCell)
+V.1.8.0 with config and custom modules from `PhysiCell_config_and_custom_modules`. Visit [PhysiCell](https://github.com/MathCancer/PhysiCell) for installation and run instructions. Code can be analyzed by first running `Figure_6/chist/load/matTohdf.py` to transform .mat PhysiCell files to hdf5 format and preserach for cells at the boundaries. Then similar to the figure analysis can be reproduced with the corresponding Figure_6_x.py scripts. 
 
 ## Reference
 Preprint: 
