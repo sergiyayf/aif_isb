@@ -58,14 +58,14 @@ the acquisition and effect of compensatory mutations. The Source Data for this F
 
 ### Figure 3
 The impact of compensatory mutations on
-treatment failure is delayed.
+treatment failure is delayed. The Source Data for this Figure is `data/Fig3_source_data.xlsx`.
 
 ![Figure 3](/paper_figures/Figure_treatment.png)
 
 ### Figure 4
 The opposing effects of peripheral inflation
 and width-dependent selection create a quasistable
-equilibrium width. The Source Data for this Figure is `data/Fig3_source_data.xlsx`.
+equilibrium width. 
 
 ![Figure 4](/paper_figures/Figure_ISB.png)
 
