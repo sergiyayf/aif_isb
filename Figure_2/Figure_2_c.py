@@ -24,6 +24,7 @@ def plot_median_width(ax, colplt, CHX=50, BED=4, indicate_treatment=False):
         width_b = colplt.get_width(CHX=50, BED=4, day=day, color=1)
         width_m = colplt.get_width(CHX=50, BED=4, day=day, color=2)
         # calculate means and standard deviations
+
         mean_w_r.append(np.nanmean(width_r))  # mean
         median_w_r.append(np.nanmedian(width_r))  # Q2
         first_q_w_r.append(np.nanpercentile(width_r, 25))  # Q1

@@ -78,7 +78,7 @@ def plot_probabilities(combined_stats, samples, day):
     # save output as png
     output_folder = 'Figure_output'
     plot_file_name = output_folder + f'/Pfail_combined_bars_day{day}.pdf'
-    fig.savefig(plot_file_name, bbox_inches='tight', dpi=600)
+    #fig.savefig(plot_file_name, bbox_inches='tight', dpi=600)
     print('Plot has been saved in {}'.format(plot_file_name))
 
 
@@ -100,6 +100,9 @@ def plot_efficacy(combined_stats, samples, control, day):
         (selected_stats['P_fail_s1'] + selected_stats['P_fail_s2'])) ** 2 + ((errorprop_sum(control_stats['err_P_fail_s1'],control_stats['err_P_fail_s2'])) /
         (control_stats['P_fail_s1'] + control_stats['P_fail_s2'])) ** 2 )
     selected_stats['err_efficacy'] = err_efficacy
+    print(selected_stats['efficacy'])
+
+    print(selected_stats['err_efficacy'])
     #selected_stats['err_efficacy'] = errorprop_ratio(control_stats['P_fail_s1'] + control_stats['P_fail_s2'],
     #                                                 selected_stats['P_fail_s1'] + selected_stats['P_fail_s2'],
     #                                                 errorprop_sum(

@@ -52,7 +52,7 @@ Synthetic mutation assay to study evolutionary rescue dynamics in expanding micr
 
 ### Figure 2
 Slower-growing resistant mutants are stabilized at a quasi-constant equilibrium width, reshaping
-the acquisition and effect of compensatory mutations.
+the acquisition and effect of compensatory mutations. The Source Data for this Figure is `data/experimental_data.h5`.
 
 ![Figure 2](/paper_figures/Figure_experiment.png)
 
@@ -65,7 +65,7 @@ treatment failure is delayed.
 ### Figure 4
 The opposing effects of peripheral inflation
 and width-dependent selection create a quasistable
-equilibrium width.
+equilibrium width. The Source Data for this Figure is `data/Fig3_source_data.xlsx`.
 
 ![Figure 4](/paper_figures/Figure_ISB.png)
 
@@ -73,6 +73,7 @@ equilibrium width.
 Including inflation-selection balance in a random walk model of range expansion reproduces experimental
 observations.
 Simulations for this figure can be produced by running the script `streaky/streaky_examples/streaky_sim_example.py` and analyzed with `streky/streaky_examples/streaky_analysis_example.py`.
+The Source Data for this Figure can be provided upon request due to its large size.
 
 ![Figure 5](/paper_figures/Figure_RW.png)
 
@@ -81,6 +82,7 @@ The interplay of inflation-selection balance and evolutionary rescue inherently 
 in silico tumor model.
 Simulations for this Figure can be produced using [PhysiCell](https://github.com/MathCancer/PhysiCell)
 V.1.8.0 with config and custom modules from `PhysiCell_config_and_custom_modules`. Code can be analyzed by first running `Figure_6/chist/load/matTohdf.py` to transform .mat PhysiCell files to hdf5 format and preserach for cells at the boundaries. Then similar to the figure analysis can be reproduced with the corresponding Figure_6_x.py scripts. 
+The Source Date for this Figure is `Figure_6/chist/data/ER_data_collection.h5`.
 
 ![Figure 6](/paper_figures/Figure_ABS.png)
 
