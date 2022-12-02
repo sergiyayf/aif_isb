@@ -72,7 +72,7 @@ equilibrium width.
 ### Figure 5
 Including inflation-selection balance in a random walk model of range expansion reproduces experimental
 observations.
-Simulations for this figure can be produced by running the script `streaky/streaky_examples/streaky_sim_example.py` and analyzed with `streky/streaky_examples/streaky_analysis_example.py`.
+Simulations for this figure can be produced by running the script `streaky/streaky_examples/streaky_sim_example.py` (choosing the parameter 'fitness_cost' as desired and setting 'selection_type' to either 'static', 'dynamic' or 'neutral') and analyzed with `streaky/streaky_examples/streaky_analysis_example.py`.
 The Source Data for this Figure can be provided upon request due to its large size.
 
 ![Figure 5](/paper_figures/Figure_RW.png)
