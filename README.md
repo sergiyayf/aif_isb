@@ -106,7 +106,7 @@ Agent-based simulations can be produced using [PhysiCell](https://github.com/Mat
 V.1.8.0 with config and custom modules from `PhysiCell_config_and_custom_modules`. Visit [PhysiCell](https://github.com/MathCancer/PhysiCell) for installation and run instructions. Code can be analyzed by first running `Figure_6/chist/load/matTohdf.py` to transform .mat PhysiCell files to hdf5 format and preserach for cells at the boundaries. Then similar to the figure analysis can be reproduced with the corresponding Figure_6_x.py scripts. 
 
 ## Reference
-Preprint: 
-https://www.biorxiv.org/content/10.1101/2022.05.27.493727v1.abstract
+Published manuscript: 
+https://doi.org/10.1038/s41467-022-35484-y
 
 
